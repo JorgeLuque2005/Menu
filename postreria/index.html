@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pastelería Dulce</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f589bf",
+                        "background-light": "#f8f6f7",
+                        "background-dark": "#221019",
+                        "text-light": "#221019",
+                        "text-dark": "#f8f6f7",
+                        "text-subtle-light": "#756a6f",
+                        "text-subtle-dark": "#b0a5a9",
+                        "border-light": "#f0e8eb",
+                        "border-dark": "#392a32"
+                    },
+                    fontFamily: {
+                        "display": ["Epilogue", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+      body {
+        font-family: 'Epilogue', sans-serif;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col justify-between font-display text-text-light dark:text-text-dark">
+<main class="flex-grow">
+<header class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="flex items-center p-4 justify-between">
+<h1 class="text-xl font-bold flex-1 text-center">Pastelería Dulce</h1>
+<button class="flex items-center justify-center rounded-full h-10 w-10 bg-transparent text-text-light dark:text-text-dark hover:bg-primary/10">
+<span class="material-symbols-outlined">shopping_cart</span>
+</button>
+</div>
+</header>
+<div class="p-4">
+<div class="relative aspect-[4/3] rounded-xl overflow-hidden group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 ease-in-out group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDFwk6EfYrHqCv4P2NHzxPJMKLHtyLZ7jvZkgDl-gXoQhfGzv1RnUJyQ0K9AW5XDrQid4ELPe7Op3orpMxnGnG7Q-zTza_6_YIMXi01gvZMzU1fxNOF8WP4ETwScrOWAoiKVvTdu1YepyRpYxVUA_XuozCh_vJnhDHYza4ui0bAVsM3nJ23toor0wwsYnb82Dq5Na52352vPTZWyHOaEe2ldmUjH9Qls4cR211horyncSrQtwqLXxBqfsfXTetrJBb9KeEhH7Xe5Gg");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+<div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex justify-center gap-2">
+<div class="size-2 rounded-full bg-white"></div>
+<div class="size-2 rounded-full bg-white/50"></div>
+<div class="size-2 rounded-full bg-white/50"></div>
+<div class="size-2 rounded-full bg-white/50"></div>
+<div class="size-2 rounded-full bg-white/50"></div>
+</div>
+</div>
+</div>
+<section class="py-4">
+<h2 class="text-2xl font-bold px-4 pb-4">Nuestros Favoritos</h2>
+<div class="flex overflow-x-auto snap-x snap-mandatory [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden px-4 gap-4">
+<div class="snap-start shrink-0 w-64">
+<div class="flex flex-col gap-3 group">
+<div class="w-full aspect-square bg-cover bg-center rounded-xl overflow-hidden transform transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB_Gh9wWrLpa7CuMoI5K2FP5MeafN1aSexTOsgrngk_kESColeiG9zPsWaXQroWo3ANQxhgbi4V7AczRO6wrRBCMlnLigZW7X3HUm418JjMlZF8Z_OhKlvQ9s11eMo3MyRsxsad74su2QonEsZsOOZVhfCgo1UsPiu_oCFwAj-Qy8-fMLsu-xTGS4P2m77rE2nX9YTW1Co08uve01WGNmSXtP1CTp7jiUeyKIFYrKO8_wGj7mPwd4W9uqf941qk0VNt6CBaONHInYE");'></div>
+<div>
+<h3 class="font-bold text-lg">Tarta de Chocolate</h3>
+<p class="text-sm text-text-subtle-light dark:text-text-subtle-dark">Rico pastel de chocolate con glaseado</p>
+</div>
+</div>
+</div>
+<div class="snap-start shrink-0 w-64">
+<div class="flex flex-col gap-3 group">
+<div class="w-full aspect-square bg-cover bg-center rounded-xl overflow-hidden transform transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAwCuVC12gN9dDGdtsGyu7QTD5Og5r3c68l46p-c5XzDNiXwt62ryx2cDtnJV4TZwQNNZ5u5pwCB2-cQf2qGUwid-7UZxO7tOLEJq9aJrpeiiosrCXUcUcF9_HhrixxxOvQUzX-YTt1EMldz__ABZuiZYc0t36yOOn7GPUlN1fvu88dcuK_PbqYEmE18KEV80bQPCm8C-mZ3w7joEN8aOpoMyoBtTVIqVByOmY_c7efRAZmXUPux-tK7aAxwRfNufhiesWjKbLUX-g");'></div>
+<div>
+<h3 class="font-bold text-lg">Tarta de Frutas</h3>
+<p class="text-sm text-text-subtle-light dark:text-text-subtle-dark">Tarta fresca con frutas de temporada</p>
+</div>
+</div>
+</div>
+<div class="snap-start shrink-0 w-64">
+<div class="flex flex-col gap-3 group">
+<div class="w-full aspect-square bg-cover bg-center rounded-xl overflow-hidden transform transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBOD99o7GLtkzt9M0bxb1wwu0wHR1NiLWbmMfghYiAIEPfxAYNIdfLnTFSI3I5tnm6rudJ_CXf_EXV3nLP29f5OwJ5pgQ5v9KCfAlUZ1WYTTRFG_oyRGmgBE0o7FaMaPYTofsiVUjQOOripbyaEe4EYvqsvjfzOVXvUniO-sPGmu2QTHc9XIGa_J75s4h6KWOKliW1iUQfHU_xqnMUo8IEjvAc_D5zZz4mDRqiIshtisZWEv0QNrglPkpnf3aHe0mH13OlOimkK7BM");'></div>
+<div>
+<h3 class="font-bold text-lg">Macarons</h3>
+<p class="text-sm text-text-subtle-light dark:text-text-subtle-dark">Macarons coloridos con relleno cremoso</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-4 py-8">
+<h2 class="text-2xl font-bold pb-4">Ofertas Especiales</h2>
+<div class="flex items-center justify-between gap-4 rounded-xl p-4 bg-primary/10 dark:bg-primary/20">
+<div class="flex flex-col gap-2">
+<h3 class="text-lg font-bold">Descuento de Verano</h3>
+<p class="text-sm text-text-subtle-light dark:text-text-subtle-dark">20% de descuento en todos los pasteles</p>
+<button class="flex items-center justify-center rounded-full h-10 px-5 mt-2 bg-primary text-white text-sm font-bold w-fit hover:bg-opacity-90 transition-colors">
+<span>Ver más</span>
+</button>
+</div>
+<div class="w-24 h-24 bg-center bg-cover rounded-lg flex-shrink-0" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCWKRSXrpbl11bJZwRp4JMRzJeEI8ljiJ0KRB9TPuFWBZ5Qq6mHLCB39p-WnPu0nJ0ww1igoUM8jGgriYuBkzmA85jX8m6mKlH5_GmMTUzK7Kn4m1RG56dF-FhGfWS9x7uhn06HEPqj2i_Qu3HO3-rjnf3LdCf6YaE9ikgJGEFf-QEMqh0Qk1ONT9Hncp3kEKr2qbas36nZQpDK8Yj2TH9VDMSmIcL20LDbAyjEpbDqul5C7Dc7cZeeicvx9sen8MeqPveGL4VJL7E");'></div>
+</div>
+</section>
+</main>
+<footer class="sticky bottom-0 bg-background-light dark:bg-background-dark border-t border-border-light dark:border-border-dark pb-safe">
+<nav class="flex justify-around items-start pt-2 pb-2">
+<a class="flex flex-col items-center justify-center gap-1 text-primary w-1/4" href="#">
+<div class="relative flex h-8 w-16 items-center justify-center">
+<span class="material-symbols-outlined text-3xl">home</span>
+<div class="absolute -bottom-1 h-1 w-8 rounded-full bg-primary"></div>
+</div>
+<p class="text-xs font-bold">Inicio</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-text-subtle-light dark:text-text-subtle-dark w-1/4 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-3xl">menu_book</span>
+<p class="text-xs font-medium">Menú</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-text-subtle-light dark:text-text-subtle-dark w-1/4 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-3xl">receipt_long</span>
+<p class="text-xs font-medium">Pedidos</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-text-subtle-light dark:text-text-subtle-dark w-1/4 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-3xl">person</span>
+<p class="text-xs font-medium">Perfil</p>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>
